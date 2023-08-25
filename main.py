@@ -54,6 +54,7 @@ class AddressBook(UserDict):
         не розумію чому треба присвоювати увесь обьект классу Record, адже він повертає і"мя та список з телефоними чи ні? здається я вже запуталась..
         поясніть будь ласка
         '''
+        # {‘Bill’: “Bill 0987777 22.09.2000”} - результат add_record
     
     def find_record(self, value):
         return self.data.get(value)
